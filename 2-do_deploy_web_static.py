@@ -6,7 +6,7 @@ distributes an archive to your web servers, using the function do_deploy"""
 from fabric.api import env, put, run
 from os.path import exists
 import shlex
-env.hosts = ['35.185.108.180', '34.229.169.234']
+env.hosts = ['52.91.133.176', '35.175.129.100']
 env.user = 'ubuntu'
 
 
